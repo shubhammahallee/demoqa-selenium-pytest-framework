@@ -1,6 +1,6 @@
 import logging
 import inspect
-from pathlib import Path
+from pathlib import Path 
 
 class Log_details:
 
