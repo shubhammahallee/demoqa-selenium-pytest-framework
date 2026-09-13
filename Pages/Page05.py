@@ -66,5 +66,3 @@ class Page05:
 
         self.driver.save_screenshot("Screenshots/select_date_and_time_successfully.png")
         time.sleep(2)
-
-
