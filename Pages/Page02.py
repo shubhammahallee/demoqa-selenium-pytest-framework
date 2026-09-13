@@ -36,4 +36,3 @@ class Page02:
         ).send_keys(r"C:\Users\Shubham\Desktop\mantra.txt")
         self.driver.save_screenshot("Screenshots\download and upload succesfully.png")
         time.sleep(2)
-
