@@ -2,7 +2,7 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support.wait import WebDriverWait 
 
 
 class Page05:
@@ -66,6 +66,3 @@ class Page05:
 
         self.driver.save_screenshot("Screenshots/select_date_and_time_successfully.png")
         time.sleep(2)
-
-
-
