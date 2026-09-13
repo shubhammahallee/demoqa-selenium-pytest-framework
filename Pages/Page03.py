@@ -28,7 +28,3 @@ class Page03:
 
     def click_desktop(self):
         self.wait.until(EC.element_to_be_clickable(self.dekstop_list_btn)).click()
-
-
-
-
